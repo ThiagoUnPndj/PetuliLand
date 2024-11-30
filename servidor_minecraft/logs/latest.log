@@ -1,0 +1,1372 @@
+[30Nov2024 19:14:25.199] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[30Nov2024 19:14:25.203] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[30Nov2024 19:14:25.902] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Nov2024 19:14:25.954] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/PetuliLand/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Nov2024 19:14:26.357] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PetuliLand/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
+[30Nov2024 19:14:26.359] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PetuliLand/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[30Nov2024 19:14:26.361] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PetuliLand/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[30Nov2024 19:14:26.363] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/PetuliLand/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[30Nov2024 19:14:26.559] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/PetuliLand/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[30Nov2024 19:14:26.559] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[30Nov2024 19:14:29.320] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Nov2024 19:14:29.523] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[30Nov2024 19:14:29.526] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[30Nov2024 19:14:29.541] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Nov2024 19:14:29.542] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for mixins.untamedwilds.json could not be read. If this is a development environment you can ignore this message
+[30Nov2024 19:14:31.547] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[30Nov2024 19:14:37.160] [main/WARN] [mixin/]: Method overwrite conflict for scheduleRandomTick in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[30Nov2024 19:14:37.161] [main/WARN] [mixin/]: Method overwrite conflict for getScheduledRandomTicks in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[30Nov2024 19:14:37.182] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zje000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[30Nov2024 19:14:39.225] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[30Nov2024 19:14:39.289] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[30Nov2024 19:14:39.290] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
+[30Nov2024 19:14:39.317] [modloading-worker-0/INFO] [untamedwilds.UntamedWilds/]: Loading compatibility module with Patchouli
+[30Nov2024 19:14:40.052] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone items
+[30Nov2024 19:14:40.194] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Blocks
+[30Nov2024 19:14:40.250] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Wood
+[30Nov2024 19:14:40.252] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Entities
+[30Nov2024 19:14:40.255] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Entities
+[30Nov2024 19:14:40.257] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Creative Tabs
+[30Nov2024 19:14:40.258] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sounds
+[30Nov2024 19:14:40.259] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Predicate
+[30Nov2024 19:14:40.264] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone State Providers
+[30Nov2024 19:14:40.272] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Decorators
+[30Nov2024 19:14:40.299] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Features
+[30Nov2024 19:14:40.305] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Structure Pieces
+[30Nov2024 19:14:40.311] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Types
+[30Nov2024 19:14:40.320] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Configured Features
+[30Nov2024 19:14:40.365] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Configured Features
+[30Nov2024 19:14:40.509] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Configured Features
+[30Nov2024 19:14:40.518] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Configured Features
+[30Nov2024 19:14:40.533] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[30Nov2024 19:14:40.559] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[30Nov2024 19:14:40.571] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Placed Features
+[30Nov2024 19:14:40.602] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Tree Placed Features
+[30Nov2024 19:14:40.607] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Placed Features
+[30Nov2024 19:14:40.610] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Placed Features
+[30Nov2024 19:14:40.616] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[30Nov2024 19:14:40.661] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Template Pools
+[30Nov2024 19:14:40.684] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biome's We've Gone Village Template Pools
+[30Nov2024 19:14:40.686] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Poi Types
+[30Nov2024 19:14:40.689] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Villager Professions
+[30Nov2024 19:14:40.690] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[30Nov2024 19:14:41.097] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[30Nov2024 19:14:44.795] [main/INFO] [Moonlight/]: Initialized block sets in 21ms
+[30Nov2024 19:14:46.662] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[30Nov2024 19:14:46.663] [modloading-worker-0/INFO] [untamedwilds.UntamedWilds/]: Registering Packets!
+[30Nov2024 19:14:46.794] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[30Nov2024 19:14:46.798] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[30Nov2024 19:14:46.936] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
+[30Nov2024 19:14:47.041] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[30Nov2024 19:14:47.449] [main/INFO] [Moonlight/]: Initialized color sets in 55ms
+[30Nov2024 19:14:47.525] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[30Nov2024 19:14:47.526] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[30Nov2024 19:14:47.526] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_0 to index 1 for type OVERWORLD
+[30Nov2024 19:14:47.527] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_1 to index 2 for type OVERWORLD
+[30Nov2024 19:14:47.527] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_2 to index 3 for type OVERWORLD
+[30Nov2024 19:14:47.590] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[30Nov2024 19:14:47.602] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[30Nov2024 19:14:47.607] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[30Nov2024 19:14:47.609] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[30Nov2024 19:14:47.609] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[30Nov2024 19:14:47.685] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[30Nov2024 19:14:47.694] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[30Nov2024 19:14:47.714] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[30Nov2024 19:14:47.720] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[30Nov2024 19:14:47.722] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.camera.integration.waila.PluginCamera
+[30Nov2024 19:14:47.723] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[30Nov2024 19:14:47.726] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[30Nov2024 19:14:48.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[30Nov2024 19:14:48.246] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Starting version check at https://mrcrayfish.com/modupdatejson?id=catalogue
+[30Nov2024 19:14:49.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Found status: BETA Current: 1.8.0 Target: 1.8.0
+[30Nov2024 19:14:49.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Nov2024 19:14:49.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.20 Target: 47.3.0
+[30Nov2024 19:14:49.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[30Nov2024 19:14:49.501] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.20.jar%23206!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.20.jar%23206!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Nov2024 19:14:49.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[30Nov2024 19:14:49.971] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.20.jar%23206!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.20.jar%23206!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Nov2024 19:14:49.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[30Nov2024 19:14:49.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.26 Target: null
+[30Nov2024 19:14:49.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[30Nov2024 19:14:50.093] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.20.jar%23206!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.20.jar%23206!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[30Nov2024 19:14:50.094] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[30Nov2024 19:14:50.228] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.20.1-1.0.19 Target: null
+[30Nov2024 19:14:50.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[30Nov2024 19:14:50.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[30Nov2024 19:14:50.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[30Nov2024 19:14:50.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.8.6 Target: null
+[30Nov2024 19:14:50.336] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[30Nov2024 19:14:51.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
+[30Nov2024 19:14:51.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[30Nov2024 19:14:51.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.8 Target: 1.0.8
+[30Nov2024 19:14:51.689] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[30Nov2024 19:14:52.556] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[30Nov2024 19:14:53.110] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Nov2024 19:14:53.203] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+mixinsquared (version 0.1.1 -> MISSING)
+supplementaries (version 1.20-3.1.11 -> MISSING)
+Things may not work well.
+[30Nov2024 19:14:53.376] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	supplementaries:ash: 2368
+	supplementaries:ash_bricks: 2335
+	supplementaries:ash_bricks_slab: 2337
+	supplementaries:ash_bricks_stairs: 2336
+	supplementaries:ash_bricks_wall: 2338
+	supplementaries:ashen_basalt: 2373
+	supplementaries:awning: 2225
+	supplementaries:awning_black: 2229
+	supplementaries:awning_blue: 2238
+	supplementaries:awning_brown: 2230
+	supplementaries:awning_cyan: 2236
+	supplementaries:awning_gray: 2228
+	supplementaries:awning_green: 2235
+	supplementaries:awning_light_blue: 2237
+	supplementaries:awning_light_gray: 2227
+	supplementaries:awning_lime: 2234
+	supplementaries:awning_magenta: 2240
+	supplementaries:awning_orange: 2232
+	supplementaries:awning_pink: 2241
+	supplementaries:awning_purple: 2239
+	supplementaries:awning_red: 2231
+	supplementaries:awning_white: 2226
+	supplementaries:awning_yellow: 2233
+	supplementaries:bamboo_spikes: 2283
+	supplementaries:bellows: 2299
+	supplementaries:blackboard: 2252
+	supplementaries:blackstone_lamp: 2353
+	supplementaries:blackstone_tile: 2348
+	supplementaries:blackstone_tile_slab: 2350
+	supplementaries:blackstone_tile_stairs: 2349
+	supplementaries:blackstone_tile_wall: 2351
+	supplementaries:blaze_rod: 2323
+	supplementaries:block_generator: 2321
+	supplementaries:book_pile: 2363
+	supplementaries:book_pile_horizontal: 2364
+	supplementaries:bubble_block: 2370
+	supplementaries:cage: 2249
+	supplementaries:candle_holder: 2262
+	supplementaries:candle_holder_black: 2266
+	supplementaries:candle_holder_blue: 2275
+	supplementaries:candle_holder_brown: 2267
+	supplementaries:candle_holder_cyan: 2273
+	supplementaries:candle_holder_gray: 2265
+	supplementaries:candle_holder_green: 2272
+	supplementaries:candle_holder_light_blue: 2274
+	supplementaries:candle_holder_light_gray: 2264
+	supplementaries:candle_holder_lime: 2271
+	supplementaries:candle_holder_magenta: 2277
+	supplementaries:candle_holder_orange: 2269
+	supplementaries:candle_holder_pink: 2278
+	supplementaries:candle_holder_purple: 2276
+	supplementaries:candle_holder_red: 2268
+	supplementaries:candle_holder_white: 2263
+	supplementaries:candle_holder_yellow: 2270
+	supplementaries:cannon: 2365
+	supplementaries:cannonball: 2366
+	supplementaries:checker_block: 2311
+	supplementaries:checker_slab: 2312
+	supplementaries:clock_block: 2300
+	supplementaries:cog_block: 2289
+	supplementaries:crank: 2302
+	supplementaries:crystal_display: 2301
+	supplementaries:daub: 2324
+	supplementaries:daub_brace: 2326
+	supplementaries:daub_cross_brace: 2327
+	supplementaries:daub_frame: 2325
+	supplementaries:deepslate_lamp: 2354
+	supplementaries:doormat: 2287
+	supplementaries:end_stone_lamp: 2355
+	supplementaries:enderman_head: 2371
+	supplementaries:enderman_wall_head: 2372
+	supplementaries:faucet: 2304
+	supplementaries:feather_block: 2358
+	supplementaries:fine_wood: 2245
+	supplementaries:fine_wood_slab: 2247
+	supplementaries:fine_wood_stairs: 2246
+	supplementaries:fire_pit: 2362
+	supplementaries:flag_black: 2178
+	supplementaries:flag_blue: 2187
+	supplementaries:flag_brown: 2179
+	supplementaries:flag_cyan: 2185
+	supplementaries:flag_gray: 2177
+	supplementaries:flag_green: 2184
+	supplementaries:flag_light_blue: 2186
+	supplementaries:flag_light_gray: 2176
+	supplementaries:flag_lime: 2183
+	supplementaries:flag_magenta: 2189
+	supplementaries:flag_orange: 2181
+	supplementaries:flag_pink: 2190
+	supplementaries:flag_purple: 2188
+	supplementaries:flag_red: 2180
+	supplementaries:flag_white: 2175
+	supplementaries:flag_yellow: 2182
+	supplementaries:flax: 2314
+	supplementaries:flax_block: 2318
+	supplementaries:flint_block: 2359
+	supplementaries:flower_box: 2356
+	supplementaries:fodder: 2317
+	supplementaries:globe: 2253
+	supplementaries:globe_sepia: 2254
+	supplementaries:goblet: 2284
+	supplementaries:gold_door: 2305
+	supplementaries:gold_gate: 2310
+	supplementaries:gold_trapdoor: 2306
+	supplementaries:gravel_bricks: 2339
+	supplementaries:gunpowder: 2361
+	supplementaries:hourglass: 2285
+	supplementaries:iron_gate: 2309
+	supplementaries:item_shelf: 2286
+	supplementaries:jar: 2250
+	supplementaries:jar_boat: 2319
+	supplementaries:lapis_bricks: 2331
+	supplementaries:lapis_bricks_slab: 2333
+	supplementaries:lapis_bricks_stairs: 2332
+	supplementaries:lapis_bricks_wall: 2334
+	supplementaries:lock_block: 2298
+	supplementaries:lumisene: 2171
+	supplementaries:lunch_basket: 2172
+	supplementaries:moving_slidy_block: 2342
+	supplementaries:moving_slidy_block_source: 2343
+	supplementaries:netherite_door: 2307
+	supplementaries:netherite_trapdoor: 2308
+	supplementaries:notice_board: 2244
+	supplementaries:pancake: 2313
+	supplementaries:pedestal: 2243
+	supplementaries:planter: 2242
+	supplementaries:potted_flax: 2316
+	supplementaries:present: 2191
+	supplementaries:present_black: 2195
+	supplementaries:present_blue: 2204
+	supplementaries:present_brown: 2196
+	supplementaries:present_cyan: 2202
+	supplementaries:present_gray: 2194
+	supplementaries:present_green: 2201
+	supplementaries:present_light_blue: 2203
+	supplementaries:present_light_gray: 2193
+	supplementaries:present_lime: 2200
+	supplementaries:present_magenta: 2206
+	supplementaries:present_orange: 2198
+	supplementaries:present_pink: 2207
+	supplementaries:present_purple: 2205
+	supplementaries:present_red: 2197
+	supplementaries:present_white: 2192
+	supplementaries:present_yellow: 2199
+	supplementaries:pulley_block: 2297
+	supplementaries:raked_gravel: 2288
+	supplementaries:redstone_illuminator: 2296
+	supplementaries:relayer: 2290
+	supplementaries:rope: 2279
+	supplementaries:rope_buntings: 2281
+	supplementaries:rope_knot: 2280
+	supplementaries:rope_tomatoes: 2374
+	supplementaries:sack: 2251
+	supplementaries:safe: 2248
+	supplementaries:sconce: 2255
+	supplementaries:sconce_green: 2259
+	supplementaries:sconce_lever: 2261
+	supplementaries:sconce_soul: 2257
+	supplementaries:sconce_wall: 2256
+	supplementaries:sconce_wall_green: 2260
+	supplementaries:sconce_wall_soul: 2258
+	supplementaries:sign_post: 2173
+	supplementaries:sign_post_wall: 2174
+	supplementaries:slidy_block: 2341
+	supplementaries:soap_block: 2369
+	supplementaries:speaker_block: 2294
+	supplementaries:spring_launcher: 2291
+	supplementaries:spring_launcher_arm: 2293
+	supplementaries:spring_launcher_head: 2292
+	supplementaries:statue: 2357
+	supplementaries:stick: 2322
+	supplementaries:stick_tomatoes: 2375
+	supplementaries:stone_lamp: 2352
+	supplementaries:stone_tile: 2344
+	supplementaries:stone_tile_slab: 2346
+	supplementaries:stone_tile_stairs: 2345
+	supplementaries:stone_tile_wall: 2347
+	supplementaries:structure_temp: 2320
+	supplementaries:sugar_cube: 2360
+	supplementaries:suspicious_gravel_bricks: 2340
+	supplementaries:timber_brace: 2329
+	supplementaries:timber_cross_brace: 2330
+	supplementaries:timber_frame: 2328
+	supplementaries:trapped_present: 2208
+	supplementaries:trapped_present_black: 2212
+	supplementaries:trapped_present_blue: 2221
+	supplementaries:trapped_present_brown: 2213
+	supplementaries:trapped_present_cyan: 2219
+	supplementaries:trapped_present_gray: 2211
+	supplementaries:trapped_present_green: 2218
+	supplementaries:trapped_present_light_blue: 2220
+	supplementaries:trapped_present_light_gray: 2210
+	supplementaries:trapped_present_lime: 2217
+	supplementaries:trapped_present_magenta: 2223
+	supplementaries:trapped_present_orange: 2215
+	supplementaries:trapped_present_pink: 2224
+	supplementaries:trapped_present_purple: 2222
+	supplementaries:trapped_present_red: 2214
+	supplementaries:trapped_present_white: 2209
+	supplementaries:trapped_present_yellow: 2216
+	supplementaries:turn_table: 2295
+	supplementaries:urn: 2367
+	supplementaries:wicker_fence: 2282
+	supplementaries:wild_flax: 2315
+	supplementaries:wind_vane: 2303
+
+[30Nov2024 19:14:53.381] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:enchantment
+	supplementaries:stasis: 53
+
+[30Nov2024 19:14:53.382] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	supplementaries:bomb: 448
+	supplementaries:brick_projectile: 446
+	supplementaries:cannonball: 449
+	supplementaries:dispenser_minecart: 440
+	supplementaries:falling_ash: 444
+	supplementaries:falling_sack: 445
+	supplementaries:falling_urn: 443
+	supplementaries:hat_stand: 441
+	supplementaries:pearl_marker: 439
+	supplementaries:red_merchant: 442
+	supplementaries:rope_arrow: 450
+	supplementaries:slimeball_projectile: 447
+	supplementaries:slingshot_projectile: 451
+
+[30Nov2024 19:14:53.382] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:fluid
+	supplementaries:lumisene: 9
+
+[30Nov2024 19:14:53.385] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	supplementaries:altimeter: 3193
+	supplementaries:antique_ink: 3189
+	supplementaries:ash: 3375
+	supplementaries:ash_brick: 3376
+	supplementaries:ash_bricks: 3347
+	supplementaries:ash_bricks_slab: 3349
+	supplementaries:ash_bricks_stairs: 3348
+	supplementaries:ash_bricks_wall: 3350
+	supplementaries:awning: 3245
+	supplementaries:awning_black: 3249
+	supplementaries:awning_blue: 3258
+	supplementaries:awning_brown: 3250
+	supplementaries:awning_cyan: 3256
+	supplementaries:awning_gray: 3248
+	supplementaries:awning_green: 3255
+	supplementaries:awning_light_blue: 3257
+	supplementaries:awning_light_gray: 3247
+	supplementaries:awning_lime: 3254
+	supplementaries:awning_magenta: 3260
+	supplementaries:awning_orange: 3252
+	supplementaries:awning_pink: 3261
+	supplementaries:awning_purple: 3259
+	supplementaries:awning_red: 3251
+	supplementaries:awning_white: 3246
+	supplementaries:awning_yellow: 3253
+	supplementaries:bamboo_spikes: 3299
+	supplementaries:bamboo_spikes_tipped: 3300
+	supplementaries:bellows: 3314
+	supplementaries:biomeswevegone/sign_post_aspen: 7215
+	supplementaries:biomeswevegone/sign_post_baobab: 7216
+	supplementaries:biomeswevegone/sign_post_blue_enchanted: 7217
+	supplementaries:biomeswevegone/sign_post_cika: 7218
+	supplementaries:biomeswevegone/sign_post_cypress: 7219
+	supplementaries:biomeswevegone/sign_post_ebony: 7220
+	supplementaries:biomeswevegone/sign_post_fir: 7221
+	supplementaries:biomeswevegone/sign_post_florus: 7222
+	supplementaries:biomeswevegone/sign_post_green_enchanted: 7223
+	supplementaries:biomeswevegone/sign_post_holly: 7224
+	supplementaries:biomeswevegone/sign_post_ironwood: 7225
+	supplementaries:biomeswevegone/sign_post_jacaranda: 7226
+	supplementaries:biomeswevegone/sign_post_mahogany: 7227
+	supplementaries:biomeswevegone/sign_post_maple: 7228
+	supplementaries:biomeswevegone/sign_post_palm: 7229
+	supplementaries:biomeswevegone/sign_post_pine: 7230
+	supplementaries:biomeswevegone/sign_post_rainbow_eucalyptus: 7231
+	supplementaries:biomeswevegone/sign_post_redwood: 7232
+	supplementaries:biomeswevegone/sign_post_sakura: 7233
+	supplementaries:biomeswevegone/sign_post_skyris: 7234
+	supplementaries:biomeswevegone/sign_post_white_mangrove: 7235
+	supplementaries:biomeswevegone/sign_post_willow: 7236
+	supplementaries:biomeswevegone/sign_post_witch_hazel: 7237
+	supplementaries:biomeswevegone/sign_post_zelkova: 7238
+	supplementaries:blackboard: 3272
+	supplementaries:blackstone_lamp: 3363
+	supplementaries:blackstone_tile: 3358
+	supplementaries:blackstone_tile_slab: 3360
+	supplementaries:blackstone_tile_stairs: 3359
+	supplementaries:blackstone_tile_wall: 3361
+	supplementaries:bomb: 3176
+	supplementaries:bomb_blue: 3178
+	supplementaries:bomb_blue_projectile: 3179
+	supplementaries:bomb_projectile: 3177
+	supplementaries:bomb_spiky: 3180
+	supplementaries:bomb_spiky_projectile: 3181
+	supplementaries:botania/sign_post_dreamwood: 7240
+	supplementaries:botania/sign_post_livingwood: 7239
+	supplementaries:bubble_block: 3379
+	supplementaries:bubble_blower: 3183
+	supplementaries:bunting: 3297
+	supplementaries:cage: 3269
+	supplementaries:candle_holder: 3279
+	supplementaries:candle_holder_black: 3283
+	supplementaries:candle_holder_blue: 3292
+	supplementaries:candle_holder_brown: 3284
+	supplementaries:candle_holder_cyan: 3290
+	supplementaries:candle_holder_gray: 3282
+	supplementaries:candle_holder_green: 3289
+	supplementaries:candle_holder_light_blue: 3291
+	supplementaries:candle_holder_light_gray: 3281
+	supplementaries:candle_holder_lime: 3288
+	supplementaries:candle_holder_magenta: 3294
+	supplementaries:candle_holder_orange: 3286
+	supplementaries:candle_holder_pink: 3295
+	supplementaries:candle_holder_purple: 3293
+	supplementaries:candle_holder_red: 3285
+	supplementaries:candle_holder_white: 3280
+	supplementaries:candle_holder_yellow: 3287
+	supplementaries:candy: 3188
+	supplementaries:cannon: 3372
+	supplementaries:cannonball: 3373
+	supplementaries:checker_block: 3326
+	supplementaries:checker_slab: 3327
+	supplementaries:clock_block: 3315
+	supplementaries:cog_block: 3306
+	supplementaries:confetti_popper: 3185
+	supplementaries:crank: 3317
+	supplementaries:crystal_display: 3316
+	supplementaries:daub: 3336
+	supplementaries:daub_brace: 3338
+	supplementaries:daub_cross_brace: 3339
+	supplementaries:daub_frame: 3337
+	supplementaries:deepslate_lamp: 3364
+	supplementaries:dispenser_minecart: 3175
+	supplementaries:doormat: 3304
+	supplementaries:end_stone_lamp: 3365
+	supplementaries:enderman_head: 3380
+	supplementaries:faucet: 3319
+	supplementaries:feather_block: 3368
+	supplementaries:fine_wood: 3265
+	supplementaries:fine_wood_slab: 3267
+	supplementaries:fine_wood_stairs: 3266
+	supplementaries:fire_pit: 3371
+	supplementaries:flag_black: 3198
+	supplementaries:flag_blue: 3207
+	supplementaries:flag_brown: 3199
+	supplementaries:flag_cyan: 3205
+	supplementaries:flag_gray: 3197
+	supplementaries:flag_green: 3204
+	supplementaries:flag_light_blue: 3206
+	supplementaries:flag_light_gray: 3196
+	supplementaries:flag_lime: 3203
+	supplementaries:flag_magenta: 3209
+	supplementaries:flag_orange: 3201
+	supplementaries:flag_pink: 3210
+	supplementaries:flag_purple: 3208
+	supplementaries:flag_red: 3200
+	supplementaries:flag_white: 3195
+	supplementaries:flag_yellow: 3202
+	supplementaries:flax: 3330
+	supplementaries:flax_block: 3334
+	supplementaries:flax_seeds: 3331
+	supplementaries:flint_block: 3369
+	supplementaries:flower_box: 3366
+	supplementaries:flute: 3186
+	supplementaries:fodder: 3333
+	supplementaries:globe: 3273
+	supplementaries:globe_sepia: 3274
+	supplementaries:goblet: 3301
+	supplementaries:gold_door: 3320
+	supplementaries:gold_gate: 3325
+	supplementaries:gold_trapdoor: 3321
+	supplementaries:gravel_bricks: 3351
+	supplementaries:hat_stand: 3381
+	supplementaries:hourglass: 3302
+	supplementaries:iron_gate: 3324
+	supplementaries:item_shelf: 3303
+	supplementaries:jar: 3270
+	supplementaries:jar_boat: 3335
+	supplementaries:key: 3187
+	supplementaries:lapis_bricks: 3343
+	supplementaries:lapis_bricks_slab: 3345
+	supplementaries:lapis_bricks_stairs: 3344
+	supplementaries:lapis_bricks_wall: 3346
+	supplementaries:lock_block: 3313
+	supplementaries:lumisene_bottle: 3174
+	supplementaries:lumisene_bucket: 3173
+	supplementaries:lunch_basket: 3192
+	supplementaries:music_disc_heave_ho: 3329
+	supplementaries:netherite_door: 3322
+	supplementaries:netherite_trapdoor: 3323
+	supplementaries:notice_board: 3264
+	supplementaries:pancake: 3328
+	supplementaries:pedestal: 3263
+	supplementaries:planter: 3262
+	supplementaries:present: 3211
+	supplementaries:present_black: 3215
+	supplementaries:present_blue: 3224
+	supplementaries:present_brown: 3216
+	supplementaries:present_cyan: 3222
+	supplementaries:present_gray: 3214
+	supplementaries:present_green: 3221
+	supplementaries:present_light_blue: 3223
+	supplementaries:present_light_gray: 3213
+	supplementaries:present_lime: 3220
+	supplementaries:present_magenta: 3226
+	supplementaries:present_orange: 3218
+	supplementaries:present_pink: 3227
+	supplementaries:present_purple: 3225
+	supplementaries:present_red: 3217
+	supplementaries:present_white: 3212
+	supplementaries:present_yellow: 3219
+	supplementaries:pulley_block: 3312
+	supplementaries:quiver: 3191
+	supplementaries:raked_gravel: 3305
+	supplementaries:redstone_illuminator: 3311
+	supplementaries:relayer: 3307
+	supplementaries:rope: 3296
+	supplementaries:rope_arrow: 3182
+	supplementaries:sack: 3271
+	supplementaries:safe: 3268
+	supplementaries:sconce: 3275
+	supplementaries:sconce_green: 3277
+	supplementaries:sconce_lever: 3278
+	supplementaries:sconce_soul: 3276
+	supplementaries:sign_post_acacia: 7200
+	supplementaries:sign_post_bamboo: 7204
+	supplementaries:sign_post_birch: 7198
+	supplementaries:sign_post_cherry: 7203
+	supplementaries:sign_post_crimson: 7205
+	supplementaries:sign_post_dark_oak: 7201
+	supplementaries:sign_post_jungle: 7199
+	supplementaries:sign_post_mangrove: 7202
+	supplementaries:sign_post_oak: 7196
+	supplementaries:sign_post_spruce: 7197
+	supplementaries:sign_post_warped: 7206
+	supplementaries:slice_map: 3194
+	supplementaries:slidy_block: 3353
+	supplementaries:slingshot: 3184
+	supplementaries:soap: 3377
+	supplementaries:soap_block: 3378
+	supplementaries:speaker_block: 3309
+	supplementaries:spring_launcher: 3308
+	supplementaries:statue: 3367
+	supplementaries:stone_lamp: 3362
+	supplementaries:stone_tile: 3354
+	supplementaries:stone_tile_slab: 3356
+	supplementaries:stone_tile_stairs: 3355
+	supplementaries:stone_tile_wall: 3357
+	supplementaries:sugar_cube: 3370
+	supplementaries:suspicious_gravel_bricks: 3352
+	supplementaries:timber_brace: 3341
+	supplementaries:timber_cross_brace: 3342
+	supplementaries:timber_frame: 3340
+	supplementaries:trapped_present: 3228
+	supplementaries:trapped_present_black: 3232
+	supplementaries:trapped_present_blue: 3241
+	supplementaries:trapped_present_brown: 3233
+	supplementaries:trapped_present_cyan: 3239
+	supplementaries:trapped_present_gray: 3231
+	supplementaries:trapped_present_green: 3238
+	supplementaries:trapped_present_light_blue: 3240
+	supplementaries:trapped_present_light_gray: 3230
+	supplementaries:trapped_present_lime: 3237
+	supplementaries:trapped_present_magenta: 3243
+	supplementaries:trapped_present_orange: 3235
+	supplementaries:trapped_present_pink: 3244
+	supplementaries:trapped_present_purple: 3242
+	supplementaries:trapped_present_red: 3234
+	supplementaries:trapped_present_white: 3229
+	supplementaries:trapped_present_yellow: 3236
+	supplementaries:turn_table: 3310
+	supplementaries:twilightforest/sign_post_canopy: 7208
+	supplementaries:twilightforest/sign_post_dark: 7210
+	supplementaries:twilightforest/sign_post_mangrove: 7209
+	supplementaries:twilightforest/sign_post_mining: 7213
+	supplementaries:twilightforest/sign_post_sorting: 7214
+	supplementaries:twilightforest/sign_post_time: 7211
+	supplementaries:twilightforest/sign_post_transformation: 7212
+	supplementaries:twilightforest/sign_post_twilight_oak: 7207
+	supplementaries:urn: 3374
+	supplementaries:wicker_fence: 3298
+	supplementaries:wild_flax: 3332
+	supplementaries:wind_vane: 3318
+	supplementaries:wrench: 3190
+
+[30Nov2024 19:14:53.393] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:memory_module_type
+	supplementaries:scary_noteblock: 97
+
+[30Nov2024 19:14:53.395] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	supplementaries:flammable: 79
+	supplementaries:overencumbered: 78
+
+[30Nov2024 19:14:53.396] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:painting_variant
+	supplementaries:bombs: 33
+
+[30Nov2024 19:14:53.397] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	supplementaries:block.awning.bounce: 2270
+	supplementaries:block.bellows.blow: 2305
+	supplementaries:block.bellows.retract: 2306
+	supplementaries:block.blackboard.draw: 2259
+	supplementaries:block.bubble_block.break: 2287
+	supplementaries:block.bubble_block.place: 2288
+	supplementaries:block.cannon.fire: 2290
+	supplementaries:block.cannon.ignite: 2291
+	supplementaries:block.clock.tick_1: 2251
+	supplementaries:block.clock.tick_2: 2252
+	supplementaries:block.crank: 2257
+	supplementaries:block.faucet.turn: 2308
+	supplementaries:block.globe.spin: 2307
+	supplementaries:block.gunpowder.ignite: 2256
+	supplementaries:block.jar.break: 2303
+	supplementaries:block.jar.cookie: 2304
+	supplementaries:block.jar.place: 2302
+	supplementaries:block.note_block.imitate.enderman: 2314
+	supplementaries:block.present.break: 2271
+	supplementaries:block.present.fall: 2275
+	supplementaries:block.present.hit: 2274
+	supplementaries:block.present.open: 2276
+	supplementaries:block.present.pack: 2277
+	supplementaries:block.present.place: 2272
+	supplementaries:block.present.step: 2273
+	supplementaries:block.rope.break: 2281
+	supplementaries:block.rope.fall: 2285
+	supplementaries:block.rope.hit: 2284
+	supplementaries:block.rope.place: 2282
+	supplementaries:block.rope.slide: 2286
+	supplementaries:block.rope.step: 2283
+	supplementaries:block.rotate: 2258
+	supplementaries:block.sack.break: 2278
+	supplementaries:block.sack.open: 2280
+	supplementaries:block.sack.place: 2279
+	supplementaries:block.slidy_block.break: 2294
+	supplementaries:block.slidy_block.fall: 2296
+	supplementaries:block.slidy_block.hit: 2295
+	supplementaries:block.slidy_block.place: 2293
+	supplementaries:block.slidy_block.slide: 2298
+	supplementaries:block.slidy_block.step: 2297
+	supplementaries:block.turntable.cat: 2250
+	supplementaries:entity.brick.throw: 2268
+	supplementaries:entity.cannonball.bounce: 2264
+	supplementaries:entity.cannonball.break: 2263
+	supplementaries:entity.slimeball.bounce: 2266
+	supplementaries:entity.slimeball.throw: 2267
+	supplementaries:entity.slimed: 2265
+	supplementaries:item.bomb: 2253
+	supplementaries:item.bubble_blower: 2289
+	supplementaries:item.confetti_popper: 2292
+	supplementaries:item.lunch_basket.close: 2300
+	supplementaries:item.lunch_basket.insert: 2301
+	supplementaries:item.lunch_basket.open: 2299
+	supplementaries:item.slingshot.charge_0: 2309
+	supplementaries:item.slingshot.charge_1: 2310
+	supplementaries:item.slingshot.charge_2: 2311
+	supplementaries:item.slingshot.charge_3: 2312
+	supplementaries:item.slingshot.release: 2313
+	supplementaries:item.soap.wash: 2269
+	supplementaries:item.wrench.fail: 2262
+	supplementaries:item.wrench.hit: 2261
+	supplementaries:item.wrench.rotate: 2260
+	supplementaries:music.heave_ho: 2255
+	supplementaries:music.pancake: 2254
+
+[30Nov2024 19:14:53.404] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 543 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[30Nov2024 19:14:53.405] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    supplementaries:block.awning.bounce
+    supplementaries:block.bellows.blow
+    supplementaries:block.bellows.retract
+    supplementaries:block.blackboard.draw
+    supplementaries:block.bubble_block.break
+    supplementaries:block.bubble_block.place
+    supplementaries:block.cannon.fire
+    supplementaries:block.cannon.ignite
+    supplementaries:block.clock.tick_1
+    supplementaries:block.clock.tick_2
+    supplementaries:block.crank
+    supplementaries:block.faucet.turn
+    supplementaries:block.globe.spin
+    supplementaries:block.gunpowder.ignite
+    supplementaries:block.jar.break
+    supplementaries:block.jar.cookie
+    supplementaries:block.jar.place
+    supplementaries:block.note_block.imitate.enderman
+    supplementaries:block.present.break
+    supplementaries:block.present.fall
+    supplementaries:block.present.hit
+    supplementaries:block.present.open
+    supplementaries:block.present.pack
+    supplementaries:block.present.place
+    supplementaries:block.present.step
+    supplementaries:block.rope.break
+    supplementaries:block.rope.fall
+    supplementaries:block.rope.hit
+    supplementaries:block.rope.place
+    supplementaries:block.rope.slide
+    supplementaries:block.rope.step
+    supplementaries:block.rotate
+    supplementaries:block.sack.break
+    supplementaries:block.sack.open
+    supplementaries:block.sack.place
+    supplementaries:block.slidy_block.break
+    supplementaries:block.slidy_block.fall
+    supplementaries:block.slidy_block.hit
+    supplementaries:block.slidy_block.place
+    supplementaries:block.slidy_block.slide
+    supplementaries:block.slidy_block.step
+    supplementaries:block.turntable.cat
+    supplementaries:entity.brick.throw
+    supplementaries:entity.cannonball.bounce
+    supplementaries:entity.cannonball.break
+    supplementaries:entity.slimeball.bounce
+    supplementaries:entity.slimeball.throw
+    supplementaries:entity.slimed
+    supplementaries:item.bomb
+    supplementaries:item.bubble_blower
+    supplementaries:item.confetti_popper
+    supplementaries:item.lunch_basket.close
+    supplementaries:item.lunch_basket.insert
+    supplementaries:item.lunch_basket.open
+    supplementaries:item.slingshot.charge_0
+    supplementaries:item.slingshot.charge_1
+    supplementaries:item.slingshot.charge_2
+    supplementaries:item.slingshot.charge_3
+    supplementaries:item.slingshot.release
+    supplementaries:item.soap.wash
+    supplementaries:item.wrench.fail
+    supplementaries:item.wrench.hit
+    supplementaries:item.wrench.rotate
+    supplementaries:music.heave_ho
+    supplementaries:music.pancake
+
+Missing minecraft:item:
+    supplementaries:altimeter
+    supplementaries:antique_ink
+    supplementaries:ash
+    supplementaries:ash_brick
+    supplementaries:ash_bricks
+    supplementaries:ash_bricks_slab
+    supplementaries:ash_bricks_stairs
+    supplementaries:ash_bricks_wall
+    supplementaries:awning
+    supplementaries:awning_black
+    supplementaries:awning_blue
+    supplementaries:awning_brown
+    supplementaries:awning_cyan
+    supplementaries:awning_gray
+    supplementaries:awning_green
+    supplementaries:awning_light_blue
+    supplementaries:awning_light_gray
+    supplementaries:awning_lime
+    supplementaries:awning_magenta
+    supplementaries:awning_orange
+    supplementaries:awning_pink
+    supplementaries:awning_purple
+    supplementaries:awning_red
+    supplementaries:awning_white
+    supplementaries:awning_yellow
+    supplementaries:bamboo_spikes
+    supplementaries:bamboo_spikes_tipped
+    supplementaries:bellows
+    supplementaries:biomeswevegone/sign_post_aspen
+    supplementaries:biomeswevegone/sign_post_baobab
+    supplementaries:biomeswevegone/sign_post_blue_enchanted
+    supplementaries:biomeswevegone/sign_post_cika
+    supplementaries:biomeswevegone/sign_post_cypress
+    supplementaries:biomeswevegone/sign_post_ebony
+    supplementaries:biomeswevegone/sign_post_fir
+    supplementaries:biomeswevegone/sign_post_florus
+    supplementaries:biomeswevegone/sign_post_green_enchanted
+    supplementaries:biomeswevegone/sign_post_holly
+    supplementaries:biomeswevegone/sign_post_ironwood
+    supplementaries:biomeswevegone/sign_post_jacaranda
+    supplementaries:biomeswevegone/sign_post_mahogany
+    supplementaries:biomeswevegone/sign_post_maple
+    supplementaries:biomeswevegone/sign_post_palm
+    supplementaries:biomeswevegone/sign_post_pine
+    supplementaries:biomeswevegone/sign_post_rainbow_eucalyptus
+    supplementaries:biomeswevegone/sign_post_redwood
+    supplementaries:biomeswevegone/sign_post_sakura
+    supplementaries:biomeswevegone/sign_post_skyris
+    supplementaries:biomeswevegone/sign_post_white_mangrove
+    supplementaries:biomeswevegone/sign_post_willow
+    supplementaries:biomeswevegone/sign_post_witch_hazel
+    supplementaries:biomeswevegone/sign_post_zelkova
+    supplementaries:blackboard
+    supplementaries:blackstone_lamp
+    supplementaries:blackstone_tile
+    supplementaries:blackstone_tile_slab
+    supplementaries:blackstone_tile_stairs
+    supplementaries:blackstone_tile_wall
+    supplementaries:bomb
+    supplementaries:bomb_blue
+    supplementaries:bomb_blue_projectile
+    supplementaries:bomb_projectile
+    supplementaries:bomb_spiky
+    supplementaries:bomb_spiky_projectile
+    supplementaries:botania/sign_post_dreamwood
+    supplementaries:botania/sign_post_livingwood
+    supplementaries:bubble_block
+    supplementaries:bubble_blower
+    supplementaries:bunting
+    supplementaries:cage
+    supplementaries:candle_holder
+    supplementaries:candle_holder_black
+    supplementaries:candle_holder_blue
+    supplementaries:candle_holder_brown
+    supplementaries:candle_holder_cyan
+    supplementaries:candle_holder_gray
+    supplementaries:candle_holder_green
+    supplementaries:candle_holder_light_blue
+    supplementaries:candle_holder_light_gray
+    supplementaries:candle_holder_lime
+    supplementaries:candle_holder_magenta
+    supplementaries:candle_holder_orange
+    supplementaries:candle_holder_pink
+    supplementaries:candle_holder_purple
+    supplementaries:candle_holder_red
+    supplementaries:candle_holder_white
+    supplementaries:candle_holder_yellow
+    supplementaries:candy
+    supplementaries:cannon
+    supplementaries:cannonball
+    supplementaries:checker_block
+    supplementaries:checker_slab
+    supplementaries:clock_block
+    supplementaries:cog_block
+    supplementaries:confetti_popper
+    supplementaries:crank
+    supplementaries:crystal_display
+    supplementaries:daub
+    supplementaries:daub_brace
+    supplementaries:daub_cross_brace
+    supplementaries:daub_frame
+    supplementaries:deepslate_lamp
+    supplementaries:dispenser_minecart
+    supplementaries:doormat
+    supplementaries:end_stone_lamp
+    supplementaries:enderman_head
+    supplementaries:faucet
+    supplementaries:feather_block
+    supplementaries:fine_wood
+    supplementaries:fine_wood_slab
+    supplementaries:fine_wood_stairs
+    supplementaries:fire_pit
+    supplementaries:flag_black
+    supplementaries:flag_blue
+    supplementaries:flag_brown
+    supplementaries:flag_cyan
+    supplementaries:flag_gray
+    supplementaries:flag_green
+    supplementaries:flag_light_blue
+    supplementaries:flag_light_gray
+    supplementaries:flag_lime
+    supplementaries:flag_magenta
+    supplementaries:flag_orange
+    supplementaries:flag_pink
+    supplementaries:flag_purple
+    supplementaries:flag_red
+    supplementaries:flag_white
+    supplementaries:flag_yellow
+    supplementaries:flax
+    supplementaries:flax_block
+    supplementaries:flax_seeds
+    supplementaries:flint_block
+    supplementaries:flower_box
+    supplementaries:flute
+    supplementaries:fodder
+    supplementaries:globe
+    supplementaries:globe_sepia
+    supplementaries:goblet
+    supplementaries:gold_door
+    supplementaries:gold_gate
+    supplementaries:gold_trapdoor
+    supplementaries:gravel_bricks
+    supplementaries:hat_stand
+    supplementaries:hourglass
+    supplementaries:iron_gate
+    supplementaries:item_shelf
+    supplementaries:jar
+    supplementaries:jar_boat
+    supplementaries:key
+    supplementaries:lapis_bricks
+    supplementaries:lapis_bricks_slab
+    supplementaries:lapis_bricks_stairs
+    supplementaries:lapis_bricks_wall
+    supplementaries:lock_block
+    supplementaries:lumisene_bottle
+    supplementaries:lumisene_bucket
+    supplementaries:lunch_basket
+    supplementaries:music_disc_heave_ho
+    supplementaries:netherite_door
+    supplementaries:netherite_trapdoor
+    supplementaries:notice_board
+    supplementaries:pancake
+    supplementaries:pedestal
+    supplementaries:planter
+    supplementaries:present
+    supplementaries:present_black
+    supplementaries:present_blue
+    supplementaries:present_brown
+    supplementaries:present_cyan
+    supplementaries:present_gray
+    supplementaries:present_green
+    supplementaries:present_light_blue
+    supplementaries:present_light_gray
+    supplementaries:present_lime
+    supplementaries:present_magenta
+    supplementaries:present_orange
+    supplementaries:present_pink
+    supplementaries:present_purple
+    supplementaries:present_red
+    supplementaries:present_white
+    supplementaries:present_yellow
+    supplementaries:pulley_block
+    supplementaries:quiver
+    supplementaries:raked_gravel
+    supplementaries:redstone_illuminator
+    supplementaries:relayer
+    supplementaries:rope
+    supplementaries:rope_arrow
+    supplementaries:sack
+    supplementaries:safe
+    supplementaries:sconce
+    supplementaries:sconce_green
+    supplementaries:sconce_lever
+    supplementaries:sconce_soul
+    supplementaries:sign_post_acacia
+    supplementaries:sign_post_bamboo
+    supplementaries:sign_post_birch
+    supplementaries:sign_post_cherry
+    supplementaries:sign_post_crimson
+    supplementaries:sign_post_dark_oak
+    supplementaries:sign_post_jungle
+    supplementaries:sign_post_mangrove
+    supplementaries:sign_post_oak
+    supplementaries:sign_post_spruce
+    supplementaries:sign_post_warped
+    supplementaries:slice_map
+    supplementaries:slidy_block
+    supplementaries:slingshot
+    supplementaries:soap
+    supplementaries:soap_block
+    supplementaries:speaker_block
+    supplementaries:spring_launcher
+    supplementaries:statue
+    supplementaries:stone_lamp
+    supplementaries:stone_tile
+    supplementaries:stone_tile_slab
+    supplementaries:stone_tile_stairs
+    supplementaries:stone_tile_wall
+    supplementaries:sugar_cube
+    supplementaries:suspicious_gravel_bricks
+    supplementaries:timber_brace
+    supplementaries:timber_cross_brace
+    supplementaries:timber_frame
+    supplementaries:trapped_present
+    supplementaries:trapped_present_black
+    supplementaries:trapped_present_blue
+    supplementaries:trapped_present_brown
+    supplementaries:trapped_present_cyan
+    supplementaries:trapped_present_gray
+    supplementaries:trapped_present_green
+    supplementaries:trapped_present_light_blue
+    supplementaries:trapped_present_light_gray
+    supplementaries:trapped_present_lime
+    supplementaries:trapped_present_magenta
+    supplementaries:trapped_present_orange
+    supplementaries:trapped_present_pink
+    supplementaries:trapped_present_purple
+    supplementaries:trapped_present_red
+    supplementaries:trapped_present_white
+    supplementaries:trapped_present_yellow
+    supplementaries:turn_table
+    supplementaries:twilightforest/sign_post_canopy
+    supplementaries:twilightforest/sign_post_dark
+    supplementaries:twilightforest/sign_post_mangrove
+    supplementaries:twilightforest/sign_post_mining
+    supplementaries:twilightforest/sign_post_sorting
+    supplementaries:twilightforest/sign_post_time
+    supplementaries:twilightforest/sign_post_transformation
+    supplementaries:twilightforest/sign_post_twilight_oak
+    supplementaries:urn
+    supplementaries:wicker_fence
+    supplementaries:wild_flax
+    supplementaries:wind_vane
+    supplementaries:wrench
+
+Missing minecraft:painting_variant:
+    supplementaries:bombs
+
+Missing minecraft:block:
+    supplementaries:ash
+    supplementaries:ash_bricks
+    supplementaries:ash_bricks_slab
+    supplementaries:ash_bricks_stairs
+    supplementaries:ash_bricks_wall
+    supplementaries:ashen_basalt
+    supplementaries:awning
+    supplementaries:awning_black
+    supplementaries:awning_blue
+    supplementaries:awning_brown
+    supplementaries:awning_cyan
+    supplementaries:awning_gray
+    supplementaries:awning_green
+    supplementaries:awning_light_blue
+    supplementaries:awning_light_gray
+    supplementaries:awning_lime
+    supplementaries:awning_magenta
+    supplementaries:awning_orange
+    supplementaries:awning_pink
+    supplementaries:awning_purple
+    supplementaries:awning_red
+    supplementaries:awning_white
+    supplementaries:awning_yellow
+    supplementaries:bamboo_spikes
+    supplementaries:bellows
+    supplementaries:blackboard
+    supplementaries:blackstone_lamp
+    supplementaries:blackstone_tile
+    supplementaries:blackstone_tile_slab
+    supplementaries:blackstone_tile_stairs
+    supplementaries:blackstone_tile_wall
+    supplementaries:blaze_rod
+    supplementaries:block_generator
+    supplementaries:book_pile
+    supplementaries:book_pile_horizontal
+    supplementaries:bubble_block
+    supplementaries:cage
+    supplementaries:candle_holder
+    supplementaries:candle_holder_black
+    supplementaries:candle_holder_blue
+    supplementaries:candle_holder_brown
+    supplementaries:candle_holder_cyan
+    supplementaries:candle_holder_gray
+    supplementaries:candle_holder_green
+    supplementaries:candle_holder_light_blue
+    supplementaries:candle_holder_light_gray
+    supplementaries:candle_holder_lime
+    supplementaries:candle_holder_magenta
+    supplementaries:candle_holder_orange
+    supplementaries:candle_holder_pink
+    supplementaries:candle_holder_purple
+    supplementaries:candle_holder_red
+    supplementaries:candle_holder_white
+    supplementaries:candle_holder_yellow
+    supplementaries:cannon
+    supplementaries:cannonball
+    supplementaries:checker_block
+    supplementaries:checker_slab
+    supplementaries:clock_block
+    supplementaries:cog_block
+    supplementaries:crank
+    supplementaries:crystal_display
+    supplementaries:daub
+    supplementaries:daub_brace
+    supplementaries:daub_cross_brace
+    supplementaries:daub_frame
+    supplementaries:deepslate_lamp
+    supplementaries:doormat
+    supplementaries:end_stone_lamp
+    supplementaries:enderman_head
+    supplementaries:enderman_wall_head
+    supplementaries:faucet
+    supplementaries:feather_block
+    supplementaries:fine_wood
+    supplementaries:fine_wood_slab
+    supplementaries:fine_wood_stairs
+    supplementaries:fire_pit
+    supplementaries:flag_black
+    supplementaries:flag_blue
+    supplementaries:flag_brown
+    supplementaries:flag_cyan
+    supplementaries:flag_gray
+    supplementaries:flag_green
+    supplementaries:flag_light_blue
+    supplementaries:flag_light_gray
+    supplementaries:flag_lime
+    supplementaries:flag_magenta
+    supplementaries:flag_orange
+    supplementaries:flag_pink
+    supplementaries:flag_purple
+    supplementaries:flag_red
+    supplementaries:flag_white
+    supplementaries:flag_yellow
+    supplementaries:flax
+    supplementaries:flax_block
+    supplementaries:flint_block
+    supplementaries:flower_box
+    supplementaries:fodder
+    supplementaries:globe
+    supplementaries:globe_sepia
+    supplementaries:goblet
+    supplementaries:gold_door
+    supplementaries:gold_gate
+    supplementaries:gold_trapdoor
+    supplementaries:gravel_bricks
+    supplementaries:gunpowder
+    supplementaries:hourglass
+    supplementaries:iron_gate
+    supplementaries:item_shelf
+    supplementaries:jar
+    supplementaries:jar_boat
+    supplementaries:lapis_bricks
+    supplementaries:lapis_bricks_slab
+    supplementaries:lapis_bricks_stairs
+    supplementaries:lapis_bricks_wall
+    supplementaries:lock_block
+    supplementaries:lumisene
+    supplementaries:lunch_basket
+    supplementaries:moving_slidy_block
+    supplementaries:moving_slidy_block_source
+    supplementaries:netherite_door
+    supplementaries:netherite_trapdoor
+    supplementaries:notice_board
+    supplementaries:pancake
+    supplementaries:pedestal
+    supplementaries:planter
+    supplementaries:potted_flax
+    supplementaries:present
+    supplementaries:present_black
+    supplementaries:present_blue
+    supplementaries:present_brown
+    supplementaries:present_cyan
+    supplementaries:present_gray
+    supplementaries:present_green
+    supplementaries:present_light_blue
+    supplementaries:present_light_gray
+    supplementaries:present_lime
+    supplementaries:present_magenta
+    supplementaries:present_orange
+    supplementaries:present_pink
+    supplementaries:present_purple
+    supplementaries:present_red
+    supplementaries:present_white
+    supplementaries:present_yellow
+    supplementaries:pulley_block
+    supplementaries:raked_gravel
+    supplementaries:redstone_illuminator
+    supplementaries:relayer
+    supplementaries:rope
+    supplementaries:rope_buntings
+    supplementaries:rope_knot
+    supplementaries:rope_tomatoes
+    supplementaries:sack
+    supplementaries:safe
+    supplementaries:sconce
+    supplementaries:sconce_green
+    supplementaries:sconce_lever
+    supplementaries:sconce_soul
+    supplementaries:sconce_wall
+    supplementaries:sconce_wall_green
+    supplementaries:sconce_wall_soul
+    supplementaries:sign_post
+    supplementaries:sign_post_wall
+    supplementaries:slidy_block
+    supplementaries:soap_block
+    supplementaries:speaker_block
+    supplementaries:spring_launcher
+    supplementaries:spring_launcher_arm
+    supplementaries:spring_launcher_head
+    supplementaries:statue
+    supplementaries:stick
+    supplementaries:stick_tomatoes
+    supplementaries:stone_lamp
+    supplementaries:stone_tile
+    supplementaries:stone_tile_slab
+    supplementaries:stone_tile_stairs
+    supplementaries:stone_tile_wall
+    supplementaries:structure_temp
+    supplementaries:sugar_cube
+    supplementaries:suspicious_gravel_bricks
+    supplementaries:timber_brace
+    supplementaries:timber_cross_brace
+    supplementaries:timber_frame
+    supplementaries:trapped_present
+    supplementaries:trapped_present_black
+    supplementaries:trapped_present_blue
+    supplementaries:trapped_present_brown
+    supplementaries:trapped_present_cyan
+    supplementaries:trapped_present_gray
+    supplementaries:trapped_present_green
+    supplementaries:trapped_present_light_blue
+    supplementaries:trapped_present_light_gray
+    supplementaries:trapped_present_lime
+    supplementaries:trapped_present_magenta
+    supplementaries:trapped_present_orange
+    supplementaries:trapped_present_pink
+    supplementaries:trapped_present_purple
+    supplementaries:trapped_present_red
+    supplementaries:trapped_present_white
+    supplementaries:trapped_present_yellow
+    supplementaries:turn_table
+    supplementaries:urn
+    supplementaries:wicker_fence
+    supplementaries:wild_flax
+    supplementaries:wind_vane
+
+Missing minecraft:mob_effect:
+    supplementaries:flammable
+    supplementaries:overencumbered
+
+Missing minecraft:enchantment:
+    supplementaries:stasis
+
+Missing minecraft:memory_module_type:
+    supplementaries:scary_noteblock
+
+Missing minecraft:fluid:
+    supplementaries:lumisene
+
+Missing minecraft:entity_type:
+    supplementaries:bomb
+    supplementaries:brick_projectile
+    supplementaries:cannonball
+    supplementaries:dispenser_minecart
+    supplementaries:falling_ash
+    supplementaries:falling_sack
+    supplementaries:falling_urn
+    supplementaries:hat_stand
+    supplementaries:pearl_marker
+    supplementaries:red_merchant
+    supplementaries:rope_arrow
+    supplementaries:slimeball_projectile
+    supplementaries:slingshot_projectile
+
+
+[30Nov2024 19:14:53.407] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[30Nov2024 19:14:57.178] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/PetuliLand/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/assets/.mcassetsroot' uses unexpected schema
+[30Nov2024 19:14:57.178] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/PetuliLand/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/data/.mcassetsroot' uses unexpected schema
+[30Nov2024 19:14:57.233] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:supplementaries
+[30Nov2024 19:14:57.234] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:mixinsquared
+[30Nov2024 19:14:57.234] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack Supplementaries Generated Pack
+[30Nov2024 19:14:58.937] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[30Nov2024 19:15:00.428] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[30Nov2024 19:15:00.428] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[30Nov2024 19:15:00.429] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[30Nov2024 19:15:00.429] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[30Nov2024 19:15:00.540] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[30Nov2024 19:15:00.548] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[30Nov2024 19:15:00.617] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[30Nov2024 19:15:00.638] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[30Nov2024 19:15:00.721] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[30Nov2024 19:15:00.775] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[30Nov2024 19:15:00.777] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[30Nov2024 19:15:00.795] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[30Nov2024 19:15:00.804] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 33 recipes
+[30Nov2024 19:15:01.144] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 6100 advancements
+[30Nov2024 19:15:01.150] [main/INFO] [Dungeon Crawl/]: Loading data...
+[30Nov2024 19:15:01.403] [main/INFO] [Dungeon Crawl/]: Done.
+[30Nov2024 19:15:01.403] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: spawn_tables
+[30Nov2024 19:15:01.404] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for spawn_tables loaded 8 jsons
+[30Nov2024 19:15:01.405] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: entities
+[30Nov2024 19:15:01.414] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for entities loaded 36 jsons
+[30Nov2024 19:15:01.416] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[30Nov2024 19:15:01.435] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[30Nov2024 19:15:01.441] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[30Nov2024 19:15:01.462] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
+[30Nov2024 19:15:01.463] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
+[30Nov2024 19:15:01.463] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
+[30Nov2024 19:15:01.463] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[30Nov2024 19:15:01.464] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
+[30Nov2024 19:15:01.464] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
+[30Nov2024 19:15:01.465] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
+[30Nov2024 19:15:01.465] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[30Nov2024 19:15:01.465] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[30Nov2024 19:15:01.466] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[30Nov2024 19:15:01.466] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[30Nov2024 19:15:01.467] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[30Nov2024 19:15:01.467] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
+[30Nov2024 19:15:01.468] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[30Nov2024 19:15:01.468] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
+[30Nov2024 19:15:01.468] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[30Nov2024 19:15:01.469] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
+[30Nov2024 19:15:01.469] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
+[30Nov2024 19:15:01.469] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[30Nov2024 19:15:01.469] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
+[30Nov2024 19:15:01.469] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
+[30Nov2024 19:15:01.470] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
+[30Nov2024 19:15:01.470] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
+[30Nov2024 19:15:01.470] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
+[30Nov2024 19:15:01.470] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
+[30Nov2024 19:15:01.471] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
+[30Nov2024 19:15:01.471] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
+[30Nov2024 19:15:01.471] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
+[30Nov2024 19:15:01.471] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
+[30Nov2024 19:15:01.471] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
+[30Nov2024 19:15:05.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Nov2024 19:15:05.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Nov2024 19:15:05.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Nov2024 19:15:05.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Nov2024 19:15:05.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[30Nov2024 19:15:05.729] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Nov2024 19:15:05.802] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[30Nov2024 19:15:05.802] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[30Nov2024 19:15:05.803] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[30Nov2024 19:15:05.803] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[30Nov2024 19:15:05.989] [Server thread/INFO] [Framework/]: Loading server configs...
+[30Nov2024 19:15:06.514] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[30Nov2024 19:15:06.515] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[30Nov2024 19:15:06.515] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Nov2024 19:15:10.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Nov2024 19:15:13.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Nov2024 19:15:13.183] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Nov2024 19:15:13.184] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Nov2024 19:15:13.185] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Nov2024 19:15:13.186] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Nov2024 19:15:13.187] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Nov2024 19:15:13.190] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Nov2024 19:15:13.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[30Nov2024 19:15:14.035] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[30Nov2024 19:15:14.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[30Nov2024 19:15:14.606] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4572 ms
+[30Nov2024 19:15:14.607] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.793s)! For help, type "help"
+[30Nov2024 19:15:14.689] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[30Nov2024 19:15:14.699] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
+[30Nov2024 19:15:14.701] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[30Nov2024 19:19:06.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[30Nov2024 19:19:06.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: a<--[HERE]
